@@ -1,0 +1,1061 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #fff;
+    width: 1000px;
+    height: 200px;
+    
+    margin-top: -7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*HEADER TOP*/
+
+header #headerTop{
+    float: left;
+    background-color: cornflowerblue;
+    width:inherit;
+    height: 150px;
+}
+
+#logo{
+    float:left;
+    background-color: red;
+    position: relative;
+    
+    width: 110px;
+    height: 110px;
+    top:20px;
+    left:40px;
+}
+
+#exRates{
+    float:left;
+    position: relative;
+    left:400px;
+    top:30px;
+    height:80px;
+    width:200px
+}
+
+#headerInfo{
+    float:left;
+    position: relative;
+    left:400px;
+    top:30px;
+    height: 100px;
+    width: 290px;
+}
+
+#authorisationBar{
+    float:right;
+    position: relative;
+    width:200px;
+    height:20px;
+    top:130px;
+}
+
+#registrationOrUsername{
+    float:left;
+    width:100px;
+    height:inherit;
+    text-align: center;
+}
+
+#authorisationOrExit{
+    float:left;
+    width:100px;
+    height:inherit;
+    text-align: center;
+}
+
+#authorisationBar a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+
+#authorisationBar a:hover{
+    color:antiquewhite;
+}
+
+/*HEADER TOP*/
+/*TOP MENU*/
+
+header #navigation{
+    float: left;
+    width:inherit;
+    height: 50px;
+    background-color: rgb(211,75,61);
+}
+
+.topMenu{
+    height:20px;
+    padding-top:10px;
+    padding-left:80px;
+}
+
+.topMenuLi{
+    display:inline-block;
+    width:130px;
+    position: relative;
+    height: 40px;
+    top:-16px;
+    left:-40px;
+    
+    font-size: larger;
+    
+}
+
+.topMenuLi a{
+    text-decoration: none;
+    color:white;
+}
+.topMenuLi a:hover{
+    color:antiquewhite;
+}
+
+.topmenuLi a{
+    text-decoration: none;
+}
+
+.topSubMenu{
+    position: absolute;
+    right:10px;
+}
+
+.topSubMenuLi{
+    display: none;
+    width:130px;
+}
+
+.topMenuLi:hover .topSubMenuLi{
+    display:block;
+    position: relative;
+    background-color: rgb(211,75,61);
+    height:50px;
+    top:17px;
+}
+
+.topMenuLi:hover .topSubMenuLi:hover{
+    background-color: rgb(176,54,40);
+}
+
+/*TOP MENU*/
+/*ERROR 404 PAGE*/
+
+#error404{
+    width:1000px;
+    height: 700px;
+    background-color: white;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#error404 strong{
+    float:left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: cursive;
+    
+    margin-left: 80px;
+}
+
+/*ERROR 404 PAGE*/
+/*MAIN PAGE*/
+#page{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+#main{
+    height: 1150px;
+    background-color: #fff;
+    
+    margin-left: inherit;
+    margin-right: inherit;
+    width: inherit;
+}
+
+
+#mainForSectionsBlock{
+    float:left;
+    width: 800px;
+    height: 900px;
+}
+
+.tourTypes{
+    height:300px;
+    
+    width:inherit;
+}
+
+.tourTypes h3{
+    float:left;
+    margin-left: 30px;
+    box-sizing:border-box;
+    padding-left: 20px;
+    background-color: rgb(220, 95, 51);
+    width: 400px;
+    color: white;
+}
+
+.tourTypes h3:hover{
+    background-color: cornflowerblue;
+}
+
+.tourTypesHeaderHref{
+    text-decoration: none;
+}
+
+.sliderBlock{
+    clear: left;
+}
+
+.sliderBlock button{
+    float:left;
+    background-color: white;
+    border:none;
+    margin-top: 65px;
+}
+
+.sliderBlock button:active, .sliderBlock button:focus {
+  outline: none;
+}
+
+.mainPageButtonQuotes{
+    color: rgb(220, 95, 51);
+    font-size:xx-large;
+}
+
+.mainPageButtonQuotes:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.sliderBlock img{
+    height: 180px;
+    width: 180px;
+    float:left;
+    border-radius: 50%;
+    border: 3px dotted cornflowerblue;
+}
+
+.tourTypesDescription{
+    float:left;
+    height:200px;
+    width: 500px;
+    margin-left: 20px;
+    border: 1px solid lightgrey;
+    box-sizing:border-box;
+    padding: 2px;
+    font-family: monospace;
+    font-size: 14px;
+    overflow-y: auto;
+}
+
+#mainForAdvertise{
+    float: left;
+    background-color: skyblue;
+    width: 200px;
+    
+    height: 900px;
+}
+
+#mainAdvertisingHref:hover{
+    opacity: 75%;
+}
+
+#mainPageBottomBar{
+    float:left;
+    height: 250px;
+    
+    width:inherit;
+}
+
+#mainPageBottomBarHeader{
+    margin-top: 7px;
+    margin-bottom:12px;
+    background-color: rgb(220, 95, 51);
+    color: white;
+    display: block;
+    width:300px;
+    padding-left:70px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.mainPageBottomBarElem{
+    display: block;
+    float:left;
+    width:200px;
+    height:200px;
+}
+
+.mainPageBottomBarElemHeader{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom:0px;
+    height: 20px;
+}
+
+.mainPageBottomBarElemHref{
+    height: 160px;
+    width: 160px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.mainPageBottomBarElemImg{
+    border-radius: 50%;
+    border: 2px inset cornflowerblue;
+}
+
+.mainPageBottomBarElemHeaderHref{
+    text-decoration: none;
+    color: rgb(220, 95, 51);
+    font-size: 19px;
+}
+
+.mainPageBottomBarElemHeaderHref:hover{
+    color: cornflowerblue;
+}
+
+/*MAIN PAGE*/
+/*PAGE WITH TOURS*/
+#filterBlock{
+    width: 1000px;
+    height: 280px;
+    background-color: white;
+    margin-top: -22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#filterForm{
+    background-color: blue;
+    height: 148px;
+}
+
+.filterBlock{
+    float:left;
+    width:250px;
+    background-color: white;
+    height: inherit;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    
+}
+
+.filterBlock h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#kindOfSport{
+    width: 150px;
+    margin-bottom:10px;
+}
+
+#kindOfSport:hover{
+    cursor: pointer;
+}
+
+#country{
+    width: 150px;
+}
+
+#country:hover{
+    cursor: pointer;
+}
+
+#kindOfSportSection{
+    margin-top: 30px;
+}
+
+#travelDate{
+    margin-top: 30px;
+}
+
+#maxPriceSection{
+    margin-top: 30px;
+}
+
+#maxPriceInput{
+    margin-top: 13px;
+    width:147px;
+    height: 28px;
+}
+
+#filterSubmit{
+    height: 40px;
+    width: 150px;
+    margin-top: 110px;
+}
+
+#filterSubmit:hover{
+    cursor: pointer;
+}
+
+#amountOfPeople{
+    width:147px;
+    height: 28px;
+}
+
+#from{
+    margin-top:15px;
+}
+
+#to{
+    margin-top:15px;
+}
+
+#fromInput{
+    width:150px;
+    height: 30px;
+}
+
+#fromInput:hover{
+    cursor:text;
+}
+
+#toInput{
+    width:150px;
+    height: 30px;
+}
+
+#toInput:hover{
+    cursor:text;
+}
+
+#amountOfPeopleSection{
+    margin-top:18px;
+}
+
+#filterNote{
+    float:left;
+    margin-top: 90px;
+    margin-left: 10px;
+    font-size:small;
+    font-weight: bold;
+}
+
+.tourBlock{
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    border-top: 2px dashed cornflowerblue;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tourBlockContent{
+    float:left;
+    height: 280px;
+    width: 980px;
+    margin: 10px;
+}
+
+.tourBlockHeader{
+    float:left;
+    background-color: #dc5f33;
+    color: white;
+    width: 450px;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+.tourBlockInfo{
+    float:left;
+    width: 700px;
+    height: 280px;
+}
+
+.tourBlockMainInfo{
+    width:700px;
+    height: 253px;
+    float:left;
+}
+
+.tourBlockImg{
+    float:right;
+    height: 280px;
+    width: 280px;
+}
+
+.tourImg{
+    float:left;
+    height: 220px;
+    width: 280px;
+    background-color: lightgreen;
+}
+
+.tourPrice{
+    float:left;
+    width: 280px;
+    height: 60px;
+    background-color: #d34b3d;
+    color: white;
+    text-align: center;
+    box-sizing:border-box;
+    padding-top: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.tourSubInformationTop{
+    height:25px
+}
+
+.tourCitySpan{
+    float:right;
+    margin-right: 8px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tourCountrySpan{
+    float:right;
+    margin-right: 10px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.tourKindOfSportSpan{
+    float:left;
+    box-sizing:border-box;
+    margin-left: 5px;
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.tourDateInfoSpan{
+    float:left;
+    margin-top: 4px;
+    margin-left: 18px;
+    font-weight: bold;
+}
+
+.tourDescription{
+    float:left;
+    width: 696px;
+    height: 201px;
+    overflow-y: auto;
+    border: 1px solid lightgrey;
+    box-sizing:border-box;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.tourSubInformationBottom{
+    float:left;
+    width: 700px;
+    height: 25px;
+}
+
+.tourMoreHref{
+    float:right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 100;
+    font-family: fantasy;
+}
+
+.tourFreePlaces{
+    float: left;
+    margin-left: 5px;
+    margin-top: 9px;
+    font-size: large;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+#tourWarning{
+    border-top: 2px dashed cornflowerblue;
+    width:1000px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tourWarning strong{
+    float:left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: cursive;
+    
+    margin-left: 135px;
+}
+/*PAGE WITH TOURS*/
+/*TOURPAGE*/
+
+#tourPage{
+    background-color: white;
+    width: 1000px;
+    height: 1200px;
+}
+
+#tourPageMainInfo{
+    float:left;
+    width: 980px;
+    height: 300px;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tourPageMainInfoImg{
+    float:left;
+}
+
+#tourPageMainInfoHeader{
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color: #dc5f33;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    height:40px;
+}
+
+#tourPageMainInfoKindOfSport{
+    float:left;
+    width:400px;
+    margin-left:10px;
+    margin-top:5px;
+    font-family: monospace;
+    font-weight: 100;
+    
+    font-size: 24px;
+}
+
+#tourPageMainInfoKindOfSport span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#tourPageMainInfoCountry{
+    float:left;
+    width:400px;
+    margin-left:10px;
+    font-family: monospace;
+    font-weight: 100;
+    
+    font-size: 24px;
+}
+
+#tourPageMainInfoCountry span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#tourPageMainInfoCity{
+    float:left;
+    width:400px;
+    margin-left:10px;
+    font-family: monospace;
+    font-weight: 100;
+    
+    font-size: 24px;
+}
+
+#tourPageMainInfoCity span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#tourPageMainInfoDateFrom{
+    float:left;
+    width:400px;
+    margin-left:10px;
+    font-family: monospace;
+    font-weight: 100;
+    
+    font-size: 24px;
+}
+
+#tourPageMainInfoDateFrom span{
+    font-weight: bold;
+    color: blue;
+}
+
+#tourPageMainInfoDateTo{
+    float:left;
+    width:400px;
+    margin-left:10px;
+    font-family: monospace;
+    font-weight: 100;
+    
+    font-size: 24px;
+}
+
+#tourPageMainInfoDateTo span{
+    font-weight: bold;
+    color: blue;
+}
+
+#tourPageMainInfoFreePlaces{
+    float:left;
+    width:400px;
+    margin-left:10px;
+    font-family: monospace;
+    font-weight: 100;
+    
+    font-size: 24px;
+}
+
+#tourPageMainInfoFreePlaces span{
+    color: forestgreen;
+    font-weight: bold;
+}
+
+#tourPageMainInfoPrice{
+    float:left;
+    width:400px;
+    margin-left:10px;
+    font-family: monospace;
+    font-weight: 100;
+    
+    font-size: 24px;
+}
+
+#tourPageMainInfoPrice span{
+    color: forestgreen;
+    font-weight: bold;
+}
+
+#tourPageMainInfoBuy span{
+    background-color: #d34b3d;
+    float:right;
+    font-size: xx-large;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    box-sizing:border-box;
+    padding-top: 5px;
+    font-family: fantasy;
+    color:white;
+}
+
+#tourPageMainInfoBuy span:hover{
+    background-color: red;
+}
+
+#tourPageCommonInfo{
+    float:left;
+    width: 980px;
+    height: 596px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tourPageCommonInfoDescription{
+    float:left;
+    height: 300px;
+    
+    width: inherit;
+}
+
+#tourPageCommonInfoDescription h2{
+    float:left;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+    margin-bottom : 0px;
+    margin-left: 370px;
+    background-color: #dc5f33;
+    text-align: center;
+    color: white;
+}
+
+#tourPageCommonInfoDescription article{
+    float:left;
+    height: 250px;
+    width: 974px;
+    overflow-y: auto;
+    box-sizing:border-box;
+    padding: 5px;
+    border: 3px double cornflowerblue;
+    margin-top: 10px;
+}
+
+
+#tourPageCommonInfoTerms{
+    float:left;
+    height: 300px;
+    
+    width: inherit;
+}
+
+#tourPageCommonInfoTerms h2{
+    float: left;
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom : 0px;
+    margin-left: 370px;
+    background-color: #dc5f33;
+    text-align: center;
+    color: white;
+}
+
+#tourPageCommonInfoTerms article{
+    float:left;
+    height: 250px;
+    width: 974px;
+    overflow-y: auto;
+    box-sizing:border-box;
+    padding: 5px;
+    border: 3px double cornflowerblue;
+    margin-top: 10px;
+}
+
+
+#tourPagePhotosSection h2{
+    float:left;
+    
+    width: 240px;
+    height: 30px;
+    margin-top: 8px;
+    margin-bottom : 0px;
+    margin-left: 380px;
+    background-color: #dc5f33;
+    text-align: center;
+    color: white;
+}
+
+#tourPagePhotoCollageBlock{
+    float:left;
+    width: 980px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tourPagePhotos{
+    float:left;
+    margin: 13px;
+}
+/*TOURPAGE*/
+/*COMMON INFO PAGE*/
+#commonInfoPage{
+    width: 1000px;
+    height: 1020px;
+    background-color: white;
+}
+
+#commonInfoPage section{
+    float:left;
+    width: 800px;
+    height: 500px;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#commonInfoPage section h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dc5f33;
+    color: white;
+    text-align: center;
+}
+
+#commonInfoPage section article{
+    height: 463px;
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 15px;
+}
+/*COMMON INFO PAGE*/
+/*COOPERATION PAGE*/
+#cooperationPage{
+    width: 1000px;
+    height: 850px;
+    background-color: white;
+}
+
+#cooperationPage section{
+    float: left;
+    width: 800px;
+    height: 500px;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#cooperationPage section h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dc5f33;
+    color: white;
+    text-align: center;
+}
+
+#cooperationPage section article{
+    float: left;
+    height: 463px;
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#cooperationPageInfo{
+    float: left;
+    width: 800px;
+}
+
+#cooperationPageEmail{
+    float: left;
+}
+
+#cooperationPagePhone{
+    float: right;
+}
+
+#tableDiv{
+    margin-top: 20px;
+    float: left;
+    width: 800px;
+    height: 212px;
+    overflow-y: auto;
+    border: 1px solid black;
+}
+
+/*COOPERATION PAGE*/
+/*F.A.Q*/
+#faqPage{
+    width: 1000px;
+    height: 850px;
+    background-color: white;
+}
+
+#faqPage section{
+    float:left;
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#faqPage section h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dc5f33;
+    color: white;
+    text-align: center;
+}
+
+#questionsBlock{
+    float: left;
+    width: 800px;
+    height: 770px;
+    border:1px solid gray;
+    overflow-y: auto;
+}
+
+#questionsBlock li{
+    float: left;
+    margin-top: 20px;
+}
+.faqAsk{
+    float:left;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.faqAnswer{
+    float:left;
+    font-family: monospace;
+    font-size: x-large;
+    color: green;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*F.A.Q*/
+/*CONTACTS*/
+#contactsPage{
+    width: 1000px;
+    height: 850px;
+    background-color: white;
+}
+
+#contactsPage section{
+    float: left;
+    width: 800px;
+    height: 500px;
+    
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#contactsPage section h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dc5f33;
+    color: white;
+    text-align: center;
+}
+
+#contactsPage section article{
+    float: left;
+    height: 463px;
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#contactsPageInfo{
+    float: left;
+    width: 800px;
+}
+
+#contactsPageEmail{
+    float: right;
+}
+
+#contactsPagePhone{
+    margin-top: 5px;
+    float: right;
+    clear: right;
+}
+
+#contactsPageAdress{
+    margin-top: 5px;
+    float: right;
+    clear: right;
+}
+/*CONTACTS*/
+footer{
+    width: 1000px;
+    height: 200px;
+    background-color: firebrick;
+    
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,995 @@
+body {
+    background-color: antiquewhite;
+}
+
+#profilePage{
+    height:600px;
+    width:800px;
+    background-color: white;
+    border: 3px double darkkhaki;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profilePageWelcome{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#oopsImg{
+    width:450px;
+    height: 450px;
+    margin-left: 170px;
+}
+
+#leftColumn{
+    float:left;
+    width: 400px;
+    height: 300px;
+    margin-top:20px;
+}
+
+#rightColumn{
+    float:left;
+    width: 400px;
+    height: 300px;
+    margin-top:20px;
+}
+
+.leftColumnSpan{
+    display: block;
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;;
+    font-size: x-large;
+    margin-left:60px;
+    color:grey;
+    border-bottom: 3px dashed cornflowerblue;
+    background-color: whitesmoke;
+}
+
+.rightColumnSpan{
+    display: block;
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+    font-size: x-large;
+    margin-left:40px;
+    color: grey;
+    border-bottom: 3px dashed cornflowerblue;
+    background-color: whitesmoke;
+}
+
+.infoSpan{
+    color:black;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#edit{
+    float:right;
+    margin-right: 60px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 2px outset whitesmoke;
+}
+
+#editProfileHref{
+    font-family: monospace;
+    width: 130px;
+    height: 35px;
+    color: black;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#editProfileHref:hover{
+    color: red;
+}
+
+#profileBack{
+    float:left;
+    margin-top: 130px;
+    font-size: x-large;
+    margin-left:60px;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#profileBack:hover{
+    color:red;
+}
+
+#profileCabinetPanel{
+    float: right;
+    clear: right;
+    margin-right: 64px;
+    margin-top: 106px;
+    font-size: x-large;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#profileCabinetPanel:hover{
+    color:red;
+}
+
+#birthDateEdit{
+    width:128px;
+}
+
+.leftColumnSpanEdit{
+    display: block;
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;;
+    font-size: x-large;
+    margin-left:60px;
+    color:grey;
+    border-bottom: 3px dashed cornflowerblue;
+    background-color: whitesmoke;
+}
+
+.rightColumnSpanEdit{
+    display: block;
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+    font-size: x-large;
+    margin-left:40px;
+    color: grey;
+    border-bottom: 3px dashed cornflowerblue;
+    background-color: whitesmoke;
+}
+
+.editInput{
+    float: right;
+    margin-top: 5px;
+}
+
+#profileMainInfoEditSubmit{
+    float:left;
+    margin-left: 665px;
+    margin-top: 5px;
+    height: 25px;
+}
+
+#leftEditColumn{
+    float:left;
+    width: 400px;
+    height: 260px;
+    margin-top:20px;
+}
+
+#rightEditColumn{
+    float:left;
+    width: 400px;
+    height: 260px;
+    margin-top:20px;
+}
+
+#pwdEditBlock{
+    float: left;
+    width: 800px;
+    height:130px;
+    margin-top:10px;
+    height:130px;
+    border-top: 3px dashed cornflowerblue;
+}
+
+#profileCabinetPanelEdit{
+    float:right;
+    margin-right: 64px;
+    font-size: x-large;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#profileCabinetPanelEdit:hover{
+    color:red;
+}
+
+#profileBackEdit{
+    float:left;
+    margin-top: -3px;
+    font-size: x-large;
+    margin-left:60px;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#profileBackEdit:hover{
+    color:red;
+}
+
+#changePwdHeader{
+    float:left;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+    font-family: sans-serif;
+}
+
+#changePwdInputsBlock{
+    float:left;
+    width: 740px;
+    height: 80px;
+    margin-left: 60px;
+}
+
+#changePwdInputsBlock section{
+    float:left;
+    margin-right: 26px;
+}
+
+#changePwdInputsBlock section h5{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.editPwd{
+    width: 200px;
+    height: 20px;
+}
+
+#submitPwd{
+    float:left;
+    margin-left: 600px;
+    margin-top: 7px;
+    height:25px;
+}
+
+#editorCabinet{
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px double darkkhaki;
+}
+
+#editorCabinet h1{
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    text-align: center;
+}
+
+#editorCabinet ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float:left;
+    font-size: x-large;
+}
+
+#editTours{
+    width : 780px;
+    height : 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+    border: 1px dashed cornflowerblue;
+}
+
+#editTours h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#editPages{
+    width : 780px;
+    height : 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+    border: 1px dashed cornflowerblue;
+}
+
+#editPages h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#tourOwnerHeader{
+    float:right;
+    margin-right: 10px;
+}
+
+.tourOwner{
+    float:right;
+}
+
+.tourStatus{
+    float: left;
+    color: darkblue;
+    font-weight: bold;
+}
+
+#editTours li{
+    float: left;
+    width: 700px;
+    border-top: 1px dashed cornflowerblue;
+}
+
+#editTours li a{
+    float: left;
+}
+
+#editPages li{
+    width: 700px;
+    border-top: 1px dashed cornflowerblue;
+}
+
+#editPages li a{
+    float: left;
+}
+
+#changeTourInfoBlock1{
+    float:left;
+    width:400px;
+    text-align: center;
+}
+
+#changeTourInfoBlock1 h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#changeTourInfoBlock1 input{
+    height: 30px;
+    width: 200px;
+}
+
+#changeTourInfoBlock1 select{
+    height: 30px;
+    width: 200px;
+}
+
+#changeTourInfoBlock2{
+    float:left;
+    width:400px;
+    text-align: center;
+}
+
+#changeTourInfoBlock2 h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#changeTourInfoBlock2 input{
+    height: 30px;
+    width: 200px;
+}
+
+#changeTourInfoBlock3{
+    float:left;
+    border-bottom: 3px dashed cornflowerblue;
+    width: 800px;
+}
+
+#changeTourInfoBlock3 h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#changeTourInfoBlock3 textarea{
+    width: 775px;
+    float:left;
+    resize:none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#acceptMainInfoChanges{
+    float: right;
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#resetMainInfoChanges{
+    float: right;
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mainImageForm{
+    float:left;
+    width: 800px;
+    height: 370px;
+    border-bottom: 3px dashed cornflowerblue;
+}
+
+#mainImageForm section{
+    float:left;
+}
+
+#mainImageForm section h3{
+    float:left;
+    width: 800px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mainImageForm section img{
+    float:left;
+    margin-left: 10px;
+}
+
+#uploadMainImage{
+    float: left;
+    width: 340px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.fileUploadWarning{
+    margin-top: 10px;
+    font-family: monospace;
+    color: darkgray;
+}
+
+#acceptMainPhotoChanges{
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 200px;
+    height: 30px;
+}
+
+#deletePhotosForm{
+    float:left;
+    width: 800px;
+    height: 700px;
+    border-bottom: 3px dashed cornflowerblue;
+}
+
+#deletePhotosForm section{
+    float: left;
+}
+
+#deletePhotosForm section h3{
+    float: left;
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#deletePhotosBlock{
+    float: left;
+    margin-left: 10px;
+    width: 779px;
+    height: 600px;
+    overflow-y: auto;
+    border: 1px solid gray;
+}
+
+.deletePhotoSingleBlock{
+    float:left;
+    height: 300px;
+    width:770px;
+    border-bottom: 3px solid black;
+}
+
+.deletePhotoSingleBlock img{
+    float: left;
+}
+
+.deletePhotoSingleBlockCheckBox{
+    float:left;
+    margin-left: 180px;
+    margin-top: 140px;
+}
+
+#acceptDeletePhotos{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+#deletePhotosForm strong{
+    float:left;
+    margin-left: 10px;
+}
+
+#uploadPhotosForm{
+    float: left;
+    width: 800px;
+    height: 170px;
+    border-bottom: 3px dashed cornflowerblue;
+}
+
+#uploadPhotosForm h3{
+    float: left;
+    width: 800px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#uploadPhotosFormBlock{
+    float: left;
+    width: 800px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#uploadPhotosFormBlock input{
+    float:left;
+    width: 250px;
+    height: 50px;
+    margin-left: 150px;
+}
+
+#acceptUploadPhotos{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+#cabinetBottomBar{
+    width: 800px;
+    height: 30px;
+    float: left;
+}
+
+#deleteTourBlock{
+    float: left;
+    height: 50px;
+    width: 800px;
+}
+
+#deleteTourSubmit{
+    float: left;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+#backToListOfTours{
+    float:left;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size:large;
+}
+
+#toPage{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size:large;
+}
+
+#changeHeaderImage{
+    float: left;
+    width: 600px;
+    margin-left: 100px;
+}
+
+#changeHeaderImage h3{
+    text-align: center;
+}
+
+#changeHeaderImage img{
+    margin-bottom: 10px;
+}
+
+#changeHeaderImgSubmit{
+    float:right;
+}
+
+#changeLogoImage{
+    float: left;
+    width: 600px;
+    margin-left: 100px;
+}
+
+#changeLogoImage h3{
+    text-align: center;
+}
+
+
+#changeLogoImage img{
+    border: 1px solid black;
+    float: left;
+}
+
+#changeLogoImage input{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#changeHeaderInfo{
+    float: left;
+    width: 600px;
+    margin-left: 100px;
+    
+}
+
+#changeHeaderInfo h3{
+    text-align: center;
+}
+
+#headerInfoText{
+    float:left;
+    width: 400px;
+    height: 100px;
+    resize:none;
+}
+
+#headerInfoSubmit{
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#cabinetEditPagesBottomBar{
+    float: left;
+    
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+#backToAdminCabinet{
+    float: left;
+    font-size: x-large;
+}
+
+#checkPageChanges{
+    float: right;
+    font-size: x-large;
+}
+
+.changeMainPageBlock{
+    float: left;
+    margin-left: 100px;
+    width: 600px;
+    border-bottom: 3px dashed grey;
+}
+
+.changeMainPageBlock h3{
+    text-align: center;
+}
+
+.changeMainPageHeader{
+    width: 300px;
+    resize:none;
+}
+
+.changeMainPageHeaderHref{
+    width: 600px;
+    height: 100px;
+    resize: none;
+}
+
+.changeMainPageDescription{
+    float: left;
+    width: 600px;
+    height: 150px;
+    resize: none;
+}
+
+.blockInfoForm{
+    float: left;
+}
+
+.blockInfoForm input{
+    float: right;
+    margin-top: 10px;
+}
+
+.blockImgForm{
+    float: left;
+}
+
+.blockImgForm h3{
+    float: left;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.changeMainPageBlockImgDiv{
+    float: left;
+    width: 600px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.changeMainPageBlockImgDiv img{
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.changeMainPageBlockImgDiv input{
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.blockImgFormSubmit{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#changeMainPageBottomBar{
+    float: left;
+    margin-left: 100px;
+    width: 600px;
+}
+
+#changeMainPageBottomBar h3{
+    float: left;
+    text-align: center;
+    width: 600px;
+}
+
+#changeMainPageBottomBarHeader{
+    float: left;
+    width: 300px;
+    resize:none;
+}
+
+.mainPageBottomBarBlockChange{
+    float: left;
+    width: 600px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.mainPageBottomBarBlockChange img{
+    float: left;
+    margin-bottom: 10px;
+}
+
+.mainPageBottomBarBlockChange h4{
+    float: left;
+    width: 350px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mainPageBottomBarBlockChange textarea{
+    float: left;
+    resize: none;
+    margin-bottom: 5px;
+}
+
+.mainPageBottomBarBlockChange input{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.changeMainPageBottomBarBlockHeader{
+    width: 200px;
+    height: 20px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.changeMainPageBottomBarHref{
+    width: 340px;
+    height: 70px;
+    margin-left: 2px;
+}
+
+#bottomBarSubmitChanges{
+    float: right;
+}
+
+#changeMainPageAdvertising{
+    float: left;
+    margin-left: 100px;
+    width: 600px;
+    border-bottom: 3px dashed grey;
+}
+
+#changeMainPageAdvertising h3{
+    text-align: center;
+}
+
+#changeMainPageAdvertising h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#changeMainPageAdvertising img{
+    float:left;
+    width : 100px;
+    height : 450px;
+}
+
+#mainAdvertisingHref{
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    resize: none;
+}
+
+#mainAdvertisingImgFile{
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#mainAdvertisingSubmit{
+    float: right;
+    margin-top: 353px;
+    margin-bottom: 10px;
+}
+
+#commonInfoForm{
+    float: left;
+    margin-left: 100px;
+    width: 600px;
+    height: 900px;
+}
+
+.commonInfoBlock{
+    float: left;
+}
+
+#commonInfoBlock1{
+    border-bottom: 3px dashed grey;
+}
+
+
+.commonInfoBlock h3{
+    margin-bottom: 0px;
+    float: left;
+    width: 600px;
+    text-align: center;
+}
+
+.commonInfoBlock h4{
+    float: left;
+    width: 600px;
+    text-align: center;
+}
+
+.commonInfoHeader{
+    float: left;
+    margin-left: 200px;
+    width: 200px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.commonInfoArticle{
+    float: left;
+    width: 600px;
+    height: 200px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+#commonInfoEditSubmit{
+    float: right;
+    margin-top: 10px;
+}
+
+#cooperationMainInfoForm{
+    float: left;
+    margin-left: 100px;
+    width: 600px;
+    border-bottom: 3px dashed grey;
+}
+
+#cooperationMainInfoForm h3, #cooperationMainInfoForm h4{
+    float: left;
+    width: 600px;
+    text-align: center;
+}
+
+#cooperationMainInfoForm h3{
+    margin-bottom: 0px;
+}
+
+.cooperationHeader{
+    float: left;
+    margin-left: 200px;
+    width: 200px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.cooperationArticle{
+    float: left;
+    width: 600px;
+    height: 200px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+#cooperationInfo{
+    float: left;
+}
+
+#cooperationInfo input{
+    float: left;
+    margin-left: 210px;
+}
+
+#cooperationSubmit{
+    float: right;
+    margin-bottom: 10px;
+}
+
+#cooperationEditPricelistForm{
+    float: left;
+    width: 800;
+    margin-left: 80px;
+}
+
+#cooperationEditPricelistForm h3{
+    width: 620px;
+    text-align: center;
+}
+
+#cooperationEditPricelistForm table{
+    border-spacing: 0px;
+    overflow-y: auto;
+}
+
+#tableDiv{
+    height: 124px;
+    overflow-y: auto;
+}
+
+.productTitle{
+    width: 350px;
+}
+
+.productPrice{
+    width: 100px;
+}
+
+.changeProduct{
+    width: 100px;
+}
+
+#priceListDeleteLast{
+    float: left;
+    margin-top: 10px;
+}
+
+#priceListNew{
+    float: right;
+    margin-top: 10px;
+}

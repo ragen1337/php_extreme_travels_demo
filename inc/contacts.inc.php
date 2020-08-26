@@ -1,0 +1,13 @@
+<div id='contactsPage'>
+   <section id='contactsSection'>
+        <h2>Заголовок</h2>
+        <article>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quaerat impedit temporibus repudiandae error recusandae sequi, voluptas ratione! Totam nulla eaque aperiam facere, esse praesentium in ullam ex recusandae vero. Assumenda sed, error quibusdam atque delectus repellendus aliquid molestias rerum ullam ducimus, possimus veniam voluptates excepturi dolorem placeat, repudiandae. Nam, quaerat! Magnam incidunt inventore nostrum itaque, numquam esse perferendis dolore perspiciatis provident voluptatum placeat fuga aliquam molestias similique? Ullam adipisci quibusdam possimus reiciendis vero iure doloremque laboriosam. Quos doloribus mollitia atque minus sapiente eaque deserunt exercitationem, quas veniam sunt, ipsam nihil fugit tempore magni quod culpa rerum aut ratione nesciunt dolorem quasi. Tempora labore velit odio aliquam facilis adipisci nulla odit, illo aspernatur fugit accusamus nobis quisquam eum sunt inventore numquam, molestias aut fugiat cumque similique perferendis quidem eveniet, dicta delectus natus. Voluptate iste reiciendis cupiditate corporis necessitatibus porro, recusandae, numquam iusto beatae nihil, libero aspernatur repellat adipisci consectetur voluptatibus quos fugiat! Deleniti rerum natus ducimus dolore veniam obcaecati molestiae, ad laudantium nostrum doloribus possimus alias voluptates ex impedit, consequuntur ipsa necessitatibus, modi mollitia cumque ipsum quas officiis repudiandae atque esse? Eveniet molestiae nam nulla ad ratione et fugiat culpa optio consequuntur fuga dignissimos animi ex, ducimus exercitationem nihil! Suscipit mollitia ea eius blanditiis et harum sit autem enim expedita! Aperiam eveniet consectetur ut, aut ratione et veniam eius minima iste eum sequi, provident molestias rerum fugiat laboriosam officiis rem magnam. Nemo, reprehenderit qui veniam perferendis quidem, reiciendis corrupti nostrum adipisci eum ipsum quaerat quibusdam corporis, et. Sapiente esse ut suscipit doloremque, et laudantium dolorum consequuntur. Odit quam 
+        </article>
+        <div id='contactsPageInfo'>
+            <strong id='contactsPageEmail'>Почта: adm@adm.adm</strong>
+            <strong id='contactsPagePhone'>Телефон: 8-800-555-34-32</strong>
+            <strong id='contactsPageAdress'>Г. Москва ул. Пушкина д. Колотушкина</strong>
+        </div>
+    </section>
+</div>

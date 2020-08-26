@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pricelist>
+	<status>
+		<title>Статус агенства на 3 месяца</title>
+		<price>500</price>
+		<id>1</id>
+	</status>
+	<status>
+		<title>Статус агенства на 6 месяцев</title>
+		<price>900</price>
+		<id>2</id>
+	</status>
+	<status>
+		<title>Статус агенства на 9 месяцев</title>
+		<price>1300</price>
+		<id>3</id>
+	</status>
+	<status>
+		<title>Статус агенства на 12 месяцев</title>
+		<price>1600</price>
+		<id>4</id>
+	</status>
+</pricelist>

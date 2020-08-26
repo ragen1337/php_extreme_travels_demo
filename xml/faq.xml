@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<questions>
+	<question>
+		<ask>Lorem ipsum dolor sit?</ask>
+		<answer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate sint qui libero provident. Non, quam!</answer>
+	</question>
+	<question>
+		<ask>Lorem ipsum dolor sit amet, consectetur?</ask>
+		<answer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, excepturi esse voluptatibus.</answer>
+	</question>
+	<question>
+		<ask>Lorem ipsum dolor sit?</ask>
+		<answer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque tempore voluptatum, repudiandae expedita rem eos.</answer>
+	</question>
+	<question>
+		<ask>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, rem?</ask>
+		<answer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio a aperiam modi cumque hic tempore assumenda voluptatibus porro nobis adipisci, libero velit ipsam asperiores.</answer>
+	</question>
+	<question>
+		<ask>Lorem ipsum dolor sit?</ask>
+		<answer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus veritatis eius ab expedita, eum totam molestias nemo quaerat eligendi id quasi ut nobis praesentium natus pariatur sapiente, magnam magni soluta.</answer>
+	</question>
+	<question>
+		<ask>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius?</ask>
+		<answer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sequi numquam, aspernatur itaque, vel nesciunt.</answer>
+	</question>
+</questions>
